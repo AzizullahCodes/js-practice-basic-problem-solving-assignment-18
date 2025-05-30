@@ -137,3 +137,135 @@
 
 // console.log("Sum of all elements:", total);
 // =================================================
+// ques 10 
+// half pyramid using alphabets
+// ans 
+// for(var i = 1; i<= 4; i++){let row = '';
+//     for(var j = 1; j <= i; j++){row = row + '*'}
+//     console.log(row)
+// }
+// ======================================================================
+// ques no 11
+// ans 
+// for(var i = 1; i <=10 ; i++){ let row = '';
+//     for(var j = 1 ; j <= i; j++){row = row + '*';}
+//     console.log(row)
+// }
+// ================================================================================
+// quest no 12
+// ans 
+// let firstNames = ['Blueray','upchuck','lojack','gizmo','dorag'];
+// let lastNames = ['zzz','burp','dogbone','droop'];
+// let fullName = [];
+// for(var i = 0; i < firstNames.length; i++){
+//     for(var j = 0; j < lastNames.length; j++){fullName.push(firstNames[i]+ ' '+ lastNames[j])}
+    
+// }
+// console.log(fullName)
+// -------------------------------------------------------------------------------------------------
+// ques no 13
+// Multiplication table generator 1 to 10
+// ans 
+// for(let i = 1; i <= 5; i++){console.log(`table of ${i}`);
+// for(let j = 1; j<=5; j++){console.log(`${i}* ${j} = ${i * j}`)}}
+// ----------------------------------------------------------------------------------------------
+// ques no 14
+// ans 
+// for(var i = 10; i > 0; i--){let str = '';
+//     for(var j =1 ; j<= i; j++)
+// {str = str + '&'}
+// console.log(str)}
+// --------------------------------------------------------------------------------------------
+// ques no 15
+// square of stars
+// ans
+// for(var i = 1; i <= 5; i++){let str = '';
+//     for(var j = 1; j <= 5; j++){str = str + '*'}
+//     console.log(str)
+// }
+// .......................................................................................................
+// ques no 16
+// simple calculator grid
+// ans 
+// for(let i = 1; i <=5; i++){for(let j = 1; j <=5; j++)
+// {let add = i + j;
+//     let sub = i - j;
+//     let mul = i * j;
+//     console.log(`${i},${j} => +:${add},-:${sub},*:${mul}`)
+// }
+// }
+// ----------------------------------------------------------------------------------------------------
+// ques no 17
+// full pyramid of stars
+// ans 
+// for(var i = 1; i<= 7;i++){if(i % 2 !== 0){let str = '';
+//     for(j = 1; j <=i; j++){str = str + "*"}
+//     console.log(str)
+
+    
+// }
+// }
+// ============================================================================================
+// ques 18
+// Invert full pyramid
+// ans 
+// for(var i = 7; i >0; i--){if(i % 2 !== 0){let str = '';
+//     for(var j = 1; j <= i; j++){str = str + '*'}
+//     console.log(str)
+// }}
+// __________________________________________________________________________________________________
+// ques no 19
+// Floyd's triangle
+// ans 
+// let num = 1;
+// for(let i = 1; i <= 4; i++){let row = '';
+//     for(let j = 1; j <= i; j++){row+= num + '';
+//          num++;
+//     }
+//     console.log(row)
+// }
+
+// ________________________________________________________________________________________________________
+// ques no 20
+// square of stars
+// ans
+// for(let i = 1; i<= 5; i++){let str = '';
+//     for(let j = 1; j<= 5; j++){str = str + '*';}
+//     console.log(str)
+// }
+// _______________________________________________________________________________________________
+// ques no 21
+// right angle triangle of stars
+// ans 
+// for(let i = 1; i <=10; i++){let triangle = '';
+//     for(let j = 1; j <= i; j++){triangle = triangle + "*";}
+//     console.log(triangle);
+// }
+// ___________________________________________________________________________________
+// ques no 22
+// Invert triangle of stars
+// ans 
+// for(let i = 10; i > 0; i--){let triangle = '';
+//     for(let j = 1; j <=i; j++){triangle = triangle + '*';}
+//     console.log(triangle)
+// }
+// _____________________________________________________________________________________________________
+// ques no 23
+// triangle of number
+// ans 
+// let num = 1;
+// for(let i = 1; i <=5; i++){let triangle = '';
+//     for(let j = 1 ; j<= i; j++){triangle = triangle + j;
+        
+//     }
+//     console.log(triangle)
+// }
+// ________________________________________________________________________________________
+// ques no 24
+// Inverted triangle of numbers
+// ans 
+// for(var i = 5 ; i > 0; i--){let triangle = '';
+//     for(var j = 1; j <= i; j++){triangle = triangle + j;}
+//     console.log(triangle)
+// }
+// ____________________________________________________________
