@@ -268,4 +268,102 @@
 //     for(var j = 1; j <= i; j++){triangle = triangle + j;}
 //     console.log(triangle)
 // }
-// ____________________________________________________________
+// _______________________________________________________________________________
+// ques no 25
+// Hollow Square
+// ans
+// for(let i = 1; i<= 5; i++){let row = '';
+//     for(let j = 1; j<=5; j++){if(i=== 1 || i === 5 ||j === 1 || j === 5){row = row + '*';}
+// else{row = row + '';}}
+// console.log(row)
+// }
+// --------------------------------------------------------------------------------------------------
+// ques no 26
+// 💡 Question:
+// Write a JavaScript program that prints the following number pattern using nested loops:
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// ans 
+// for(let i = 1; i <= 5; i++){let print = '';
+//     for(let j = 1; j <= i; j++){print = print + j;
+
+//     }
+//     console.log(print)
+// }
+// ___________________________________________________________________________________________________
+// ques no 27
+// 🔁 4. Multiplication Table (1–5)
+// Question:
+// Print a table like this:
+// 1 2 3 4 5
+// 2 4 6 8 10
+// 3 6 9 12 15
+// 4 8 12 16 20
+// 5 10 15 20 25
+// ans 
+// for(let i = 1; i<= 5; i++){row = '';
+//     for(let j = 1; j <=5; j++){row = row + ' ' + (i * j);}
+//     console.log(row)
+// }
+// ____________________________________________________________________________________________________
+// ques no 28
+// 🔟 JavaScript Practice Tasks
+// 1️⃣ Even or Odd Checker
+// Ask the user for a number and check if it's even or odd.
+// ans 
+// let enterNumber = +prompt('enter a number')
+// if(enterNumber > 0){if(enterNumber % 2 === 0){console.log(enterNumber,'is an even number')}
+// else{console.log(enterNumber,'is an odd number')}}
+// else if(enterNumber === 0){console.log(enterNumber,'is zero')}
+// else if(enterNumber < 0){console.log(enterNumber,'is negative number')}
+// else{console.log('Invalid entry')}
+// ___________________________________________________________________________________________________
+// ques no 29
+// 2️⃣ Maximum of 3 Numbers
+// Create a program to find the largest of three numbers.
+// ans 
+// let enterFirstNumber = +prompt('enter first number');
+// let enterSecondNumber = +prompt('enter second number');
+// let enterThirdNumber = +prompt('enter third number');
+// if(enterFirstNumber > enterSecondNumber && enterFirstNumber > enterThirdNumber){console.log(enterFirstNumber,'is greater than secnod and third number')}
+// else if(enterSecondNumber > enterFirstNumber && enterSecondNumber > enterThirdNumber){console.log(enterSecondNumber,'is greater than first and third number')}
+// else{console.log(enterThirdNumber,'is greater than first and second number')}
+// ______________________________________________________________________________________________
+// ques no 30
+// 3️⃣ Array Sum Calculator
+// Given an array of numbers, find the total sum.
+// let nums = [2, 4, 6, 8]; // Output: 20
+// ans 
+// first method
+// let nums = [2,4,6,8];
+// // let sum = nums[0] + nums[1] + nums[2] + nums[3];
+// // console.log(sum)
+// // second method by loop
+// let sum = 0;
+// for(let i = 0; i < nums.length; i++){sum = sum + nums[i]}
+// console.log(sum)
+// __________________________________________________________________________________________________
+// ques no 30
+// 4️⃣ Count Even Numbers in Array
+// Count how many even numbers are in a given array.
+// let arr = [1, 2, 3, 4, 6];
+// ans 
+// let arr = [1,2,3,4,6];
+//  var even = [];
+//  for(let i = 0; i < arr.length; i++){if(arr[i] % 2 === 0){even.push(arr[i]);
+//  }}
+// console.log(even);
+// var len = even.length;
+// console.log(len);
+// console.log(len,'even numbers are in array')
+//  _____________________________________________________________________________________________
+// ques no 31
+// 5️⃣ Reverse a String
+// Take a string and reverse it using a loo
+// Input: "hello" → Output: "olleh"
+//  ans 
+// let str = 'hello';
+// for(let i = str.length; i >= 0; i--){console.log(str[i])}
