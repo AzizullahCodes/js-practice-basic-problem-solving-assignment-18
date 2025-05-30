@@ -1,16 +1,16 @@
-// probem solving assignment 18
-// ques no 1
-// count vowel in string
-// ans 
-// var enterString = prompt('Enter string');
-// var vowel = 0;
-// for(var i = 0 ; i < enterString.length; i++){
-//     if(enterString[i] === 'a' ||enterString[i] === 'e' ||enterString[i] === 'i' ||
-//         enterString[i] === 'o' ||
-//         enterString[i] === 'u'
-//     ){vowel++;}
-// }
-// console.log(vowel)
+//  probem solving assignment 18
+//  ques no 1
+//  count vowel in string
+ ans 
+ var enterString = prompt('Enter string');
+ var vowel = 0;
+ for(var i = 0 ; i < enterString.length; i++){
+     if(enterString[i] === 'a' ||enterString[i] === 'e' ||enterString[i] === 'i' ||
+         enterString[i] === 'o' ||
+        enterString[i] === 'u'
+){vowel++;}
+ }
+console.log(vowel)
 // ==============================================================================================================
 // ques no 2
 // factorial
@@ -367,3 +367,43 @@
 //  ans 
 // let str = 'hello';
 // for(let i = str.length; i >= 0; i--){console.log(str[i])}
+// _____________________________________________________________________________________________
+// ques no 32
+// 6️⃣ Check if a Number is Prime
+// Write code to check if a number is a prime number or not.
+// Input: 7 → Output: "Prime"
+// Input: 9 → Output: "Not Prime"
+// let number = 13; // You can change this to any number
+// let isPrime = true;
+
+// if (number <= 1) {
+//   isPrime = false; // 0 and 1 are not prime
+// } else {
+//   for (let i = 2; i < number; i++) {
+//     if (number % i === 0) {
+//       isPrime = false;
+//       break; // No need to check further
+//     }
+//   }
+// }
+
+// if (isPrime) {
+//   console.log(number + " is a prime number");
+// } else {
+//   console.log(number + " is not a prime number");
+// }
+// __________________________________________________________________________
+// ques no 33
+// 8️⃣ Array of Multiples
+// Create an array that stores the first 10 multiples of a number.
+// Input: 3 → Output: [3, 6, 9, 12, ..., 30]
+// ans 
+// let enterNumber = +prompt('enter number');
+// let array = [];
+// for(let i = 1; i <= 10; i++){
+//     array.push(i*enterNumber)
+// }
+// console.log(array)
+// ________________________________________________________________________
+// ques no 34
+
