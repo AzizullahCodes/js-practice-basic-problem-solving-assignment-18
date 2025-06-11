@@ -53,15 +53,15 @@ console.log(vowel)
 // 123
 // 1234
 // ans 
-// for (let i = 1; i <= 5; i++) {
-//   let row = "";
+ for (let i = 1; i <= 5; i++) {
+   let row = "";
  
-//   for (let j = 1; j <= i; j++) {
-//      row = row +j;
+   for (let j = 1; j <= i; j++) {
+      row = row +j;
    
-//   }
-//   console.log(row);
-// }
+   }
+  console.log(row);
+ }
 // -----------------------------------------------------------------------
 // ques no 5
 // Print a right-angle triangle
